@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Title</title>
+
+      <!--fonts-->
+      <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+      <!--jquery-->
+      <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+
+      <!--MediaElement.js-->
+      <script src="mejs/mediaelement-and-player.js"></script>
+      <link href="mejs/mediaelementplayer.css" rel="stylesheet">
+
+      <!--main css-->
+      <link rel="stylesheet" href="css/main.css">
+      <link href="mejs/mejs-skins.css" rel="stylesheet">
+
+  </head>
+  
+  <body>
+    <div class="wrapper">
+      <div class="video-container">
+        <video class="mejs-myskin video" width="852" height="480" controls ontimeupdate="timeUpdateFunction(this)">
+          <source src="video/video.mp4" type="video/mp4">
+          <source src="video/video.ogg" type="video/ogg">
+          <track label="English" kind="subtitles" srclang="en" src="video/captions.vtt">
+        </video>
+      </div> <!-- end video container -->
+
+    <div id="caption-container"> <!--IDs are named after the number of milliseconds from the beginning of the video-->
+      <p>
+        <span id="p1" class="unhighlighted" >Now that we've looked at the architecture of the internet, let's see how you might</span>
+        <span id="p2" class="unhighlighted" >connect your personal devices to the internet inside your house.</span>
+        <span id="p3" class="unhighlighted" >Well there are many ways to connect to the internet, and</span>
+        <span id="p4" class="unhighlighted" >most often people connect wirelessly.</span>
+        <span id="p5" class="unhighlighted" >Let's look at an example of how you can connect to the internet.</span>
+      </p><br>
+      <p>
+        <span id="p6" class="unhighlighted" >If you live in a city or a town, you probably have a coaxial cable for</span>
+        <span id="p7" class="unhighlighted" >cable Internet, or a phone line if you have DSL, running to the outside of</span>
+        <span id="p8" class="unhighlighted" >your house, that connects you to the Internet Service Provider, or ISP.</span>
+        <span id="p9" class="unhighlighted" >If you live far out in the country, you'll more likely have</span>
+        <span id="p10" class="unhighlighted" >a dish outside your house, connecting you wirelessly to your closest ISP, or</span>
+        <span id="p11" class="unhighlighted" >you might also use the telephone system.</span>
+      </p><br>
+      <p>
+        <span id="p12" class="unhighlighted" >Whether a wire comes straight from the ISP hookup outside your house, or</span>
+        <span id="p13" class="unhighlighted" >it travels over radio waves from your roof,</span>
+        <span id="p14" class="unhighlighted" >the first stop a wire will make once inside your house, is at your modem.</span>
+        <span id="p15" class="unhighlighted" >A modem is what connects the internet to your network at home.</span>
+        <span id="p16" class="unhighlighted" >A few common residential modems are DSL or</span>
+       </p>
+    </div> <!-- End Caption Container -->
+  </div> <!--end wrapper-->
+  
+    <!-- Script tags   -->
+
+    <script src="js/script.js"></script>
+    
+    <script>
+      $(document).ready(function() {
+        $('audio, video').mediaelementplayer();
+      });
+    </script>
+    <!-- /Script tags   -->
+    
+  </body>
+
+</html>
+
+
+

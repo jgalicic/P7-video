@@ -1,0 +1,154 @@
+.mejs-myskin .mejs-controls {
+	background: black;
+	height: 65px;
+}
+
+.mejs-myskin .mejs-button,
+.mejs-myskin .mejs-time {
+	position: absolute;
+	background: black;
+}
+
+
+.mejs-myskin .mejs-controls .mejs-time-rail .mejs-time-total {
+	background-color: black;
+	height: 6px;
+}
+.mejs-myskin .mejs-controls .mejs-time-rail .mejs-time-buffering {
+	height: 6px;
+}
+.mejs-myskin .mejs-controls .mejs-time-rail .mejs-time-loaded {
+	background-color: black;
+	width: 0;
+	height: 6px;
+}
+.mejs-myskin .mejs-controls .mejs-time-rail .mejs-time-current {
+	width: 0;
+	height: 6px;
+	background-color: white;
+}
+.mejs-myskin .mejs-controls .mejs-time-rail .mejs-time-handle  {
+	display: block;
+	margin: 0;
+	width: 14px;
+	height: 21px;
+	top: -7px;
+	border: 0;
+	background-color: white;	
+}
+.mejs-myskin .mejs-controls .mejs-time-rail .mejs-time-float {	
+	display: none;
+}
+.mejs-myskin .mejs-controls .mejs-playpause-button  {
+	top: 29px;
+	left: 9px;
+	width: 25px;
+	height: 25px;
+}
+.mejs-myskin .mejs-controls .mejs-playpause-button  button {
+	width: 25px;
+	height: 25px;
+	background: url(../svgs/play.svg) no-repeat;
+	margin: 0;
+	padding: 0;
+}
+.mejs-myskin .mejs-controls .mejs-pause button  {
+	background: url(../svgs/pause.svg) no-repeat;
+}
+
+.mejs-myskin .mejs-controls .mejs-fullscreen-button  {
+	top: 32px;
+	right: 14px;
+	width: 17px;
+	height: 15px;
+	background : none;
+}
+.mejs-myskin .mejs-controls .mejs-fullscreen-button  button {
+	width: 25px;
+	height: 25px;
+	background: url(../svgs/fullscreen.svg) no-repeat;
+	margin: 0;
+	padding: 0;
+}
+.mejs-myskin .mejs-controls .mejs-unfullscreen  button {
+	background: url(../svgs/regscreen.svg) no-repeat;
+	margin: 0;
+	padding: 0;
+}
+.mejs-myskin .mejs-controls .mejs-volume-button  {
+	top: 30px;
+	right: 35px;
+	width: 24px;
+	height: 22px;
+}
+.mejs-myskin .mejs-controls .mejs-mute button {
+	background: url(../svgs/unmute.svg) no-repeat;
+	width: 24px;
+	height: 22px;
+	margin: 0;
+	padding: 0;
+}
+.mejs-myskin .mejs-controls .mejs-unmute button {
+	background: url(../svgs/mute.svg) no-repeat;
+	width: 24px;
+	height: 22px;
+	margin: 0;
+	padding: 0;	
+}
+.mejs-myskin  .mejs-controls .mejs-volume-button .mejs-volume-slider {
+	background: #fff;
+	border: solid 1px #aaa;
+	border-width: 1px 1px 0 1px;
+	width: 22px;
+	height: 65px;
+	top: -65px;
+}
+.mejs-myskin  .mejs-controls .mejs-volume-button .mejs-volume-total {
+	background: url(controls-ted.png) repeat-y -41px -66px;
+	left: 8px;
+	width: 6px;
+	height: 50px;
+}
+.mejs-myskin  .mejs-controls .mejs-volume-button .mejs-volume-current {
+	left: 8px;
+	width: 6px;	
+	background: url(controls-ted.png) repeat-y -48px -66px;
+	height: 50px;
+}
+
+.mejs-myskin  .mejs-controls .mejs-volume-button .mejs-volume-handle {
+	display: none;
+}
+
+.mejs-myskin .mejs-controls .mejs-time span {
+	color: #333;
+}
+.mejs-myskin .mejs-controls .mejs-currenttime-container  {
+	position: absolute;
+	top: 32px;
+	right: 100px;
+	background: #ffed70;
+	color: #333;
+	padding-top: 2px;
+	border-radius: 3px;
+	color: #333;
+}
+.mejs-myskin .mejs-controls .mejs-duration-container  {
+
+	position: absolute;
+	top: 32px;
+	right: 65px;
+	background: #ffed70;
+	color: #333;
+	padding-top: 2px;
+	border-radius: 3px;
+	color: #333;
+}
+
+.mejs-myskin .mejs-controls .mejs-time  button{
+	color: #333;
+}
+.mejs-myskin .mejs-controls .mejs-captions-button {
+	display: none;
+}
+/* END: TED player */

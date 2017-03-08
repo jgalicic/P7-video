@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.highlighted {
+	background-color: #ffed70;
+}
+
+#caption-container {
+    margin: 0 auto;
+	display: block;
+	width: 100%;
+	max-width: 740px;
+	padding: 20px;
+}
+
+#caption-container p {
+	color: #666;
+	font-size: 1.2em;
+	margin: 5px 25px 0 20px;
+}
+
+.video {
+  max-width: 100%;
+}
+
+/****************************************
+Tablets & desktsop
+*****************************************/
+  
+@media screen and (min-width: 768px) {
+  
+  .video-container {
+    max-width: 750px;
+    margin: 30px auto;
+  }
+}
